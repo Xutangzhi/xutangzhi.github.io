@@ -1,0 +1,67 @@
+{
+  "education": {
+    "courses": [
+      {
+        "course": "计算机科学与技术博士",
+        "institution": "南京大学",
+        "year": "2023-至今"
+      },
+      {
+        "course": "计算机科学与技术学士",
+        "institution": "南京大学",
+        "year": "2019-2023"
+      }
+    ]
+  },
+  "reviewing": [],
+  "timeline": [
+    {
+      "title": "博士研究生",
+      "company": "南京大学计算机软件研究所 Softwiser Group",
+      "companyUrl": "https://cs.nju.edu.cn/ics/",
+      "location": "中国南京",
+      "start": "2023-09-01",
+      "category": "research",
+      "roleType": "research",
+      "isCurrent": true,
+      "summary": "在姚远副教授和徐锋教授指导下开展面向软件工程的大语言模型研究。",
+      "highlights": [
+        "重点关注测试套件演化、程序修复与软件质量自动化。",
+        "持续开展测试生成相关研究。",
+        "已有成果发表于 ASE 2025、ECAI 2025 和 ISSTA 2025。"
+      ]
+    },
+    {
+      "title": "项目实习生",
+      "company": "蚂蚁集团平台工程与技术部",
+      "companyUrl": "https://www.antgroup.com/",
+      "location": "中国杭州",
+      "start": "2024-07-01",
+      "end": "2024-11-30",
+      "category": "industry",
+      "roleType": "sde",
+      "summary": "在 CodeFuse 组参与软件变更的智能化理解与生成技术相关工作。",
+      "highlights": [
+        "参与软件变更理解与生成相关的研究和工程工作。",
+        "在开发者工具与大语言模型结合的方向积累工业经验。",
+        "接触面向真实场景的软件智能系统。"
+      ]
+    },
+    {
+      "title": "大模型算法实习生（代码方向）",
+      "company": "字节跳动",
+      "companyUrl": "https://www.bytedance.com/",
+      "location": "中国",
+      "start": "2025-07-01",
+      "end": "2025-11-30",
+      "category": "industry",
+      "roleType": "mle",
+      "summary": "参与代码方向的大语言模型算法工作。",
+      "highlights": [
+        "围绕代码智能场景开展大模型算法实践。",
+        "将学术研究兴趣与大规模工业模型工作结合起来。",
+        "进一步积累面向落地的大模型系统经验。"
+      ]
+    }
+  ]
+}

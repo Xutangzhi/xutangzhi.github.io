@@ -1,0 +1,70 @@
+{
+  "_comment": "许汤智个人主页配置",
+  "name": {
+    "full": "许汤智",
+    "first": "汤智",
+    "nickname": "许汤智",
+    "last": "许",
+    "display": "许汤智",
+    "authorVariants": ["许汤智", "Tangzhi Xu"]
+  },
+  "title": "你好，我是许汤智",
+  "tagline": "南京大学博士生，研究方向聚焦面向软件工程的大语言模型，关注测试演化、程序修复与软件质量保障。",
+  "avatar": "avatar.svg",
+  "terminal": {
+    "username": "xutangzhi",
+    "rotatingSubtitles": [
+      "研究面向软件工程的大语言模型",
+      "关注测试套件演化",
+      "探索程序修复",
+      "持续做测试生成研究",
+      "构建可靠的软件智能系统"
+    ],
+    "skills": [
+      "面向软件工程的大语言模型",
+      "测试套件演化",
+      "程序修复",
+      "测试生成",
+      "软件质量",
+      "自动化"
+    ],
+    "timezone": "Asia/Shanghai"
+  },
+  "contact": {
+    "email": "xutz@smail.nju.edu.cn",
+    "academicEmail": "xutz@smail.nju.edu.cn",
+    "hiringEmail": "xutz@smail.nju.edu.cn",
+    "location": "中国南京"
+  },
+  "social": {
+    "github": "https://github.com/Xutangzhi",
+    "linkedin": "",
+    "medium": "",
+    "googleScholar": "",
+    "twitter": "",
+    "youtube": "",
+    "bilibili": "",
+    "zhihu": "",
+    "csdn": "",
+    "blog": "/cv/Tangzhi_Xu_CV.pdf"
+  },
+  "pets": [],
+  "features": {
+    "publications": true,
+    "projects": false,
+    "articles": false,
+    "experience": true,
+    "news": true,
+    "pets": false,
+    "guide": false
+  },
+  "heroSocialIcons": [
+    { "platform": "github", "icon": "FaGithub", "label": "GitHub", "color": "#58a6ff" },
+    { "platform": "blog", "icon": "FaFilePdf", "label": "CV", "color": "#f85149" }
+  ],
+  "selectedPublicationIds": [
+    "ase2025-test-suite-evolution",
+    "ecai2025-lora-decompose",
+    "issta2025-clause2inv"
+  ]
+}

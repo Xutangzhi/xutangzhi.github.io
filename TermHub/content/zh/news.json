@@ -1,0 +1,54 @@
+[
+  {
+    "type": "publication",
+    "badge": "论文",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "测试套件演化论文被 ASE 2025 接收",
+    "description": "论文《Comprehend, Imitate, and then Update: Unleashing the Power of LLMs in Test Suite Evolution》被 ASE 2025 接收。",
+    "date": "2025",
+    "sortDate": "2025-08-01",
+    "links": [
+      { "text": "论文", "url": "/papers/ase25.pdf", "icon": "FaFilePdf" },
+      { "text": "代码", "url": "https://github.com/SoftWiser-group/CommitUp", "icon": "FaGithub" }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "论文",
+    "icon": "FaFileAlt",
+    "iconColor": "purple.400",
+    "title": "LoRA Decompose 论文被 ECAI 2025 接收",
+    "description": "论文《LoRA Decompose: Serving Fine-Tuned Models into LoRA-Like》被 ECAI 2025 接收。",
+    "date": "2025",
+    "sortDate": "2025-07-15",
+    "links": [
+      { "text": "论文", "url": "/papers/ecai25.pdf", "icon": "FaFilePdf" }
+    ]
+  },
+  {
+    "type": "release",
+    "badge": "实习",
+    "icon": "FaBriefcase",
+    "iconColor": "orange.400",
+    "title": "开始在字节跳动进行代码方向大模型算法实习",
+    "description": "加入字节跳动，参与代码方向的大语言模型算法工作。",
+    "date": "2025年7月",
+    "sortDate": "2025-07-01",
+    "links": []
+  },
+  {
+    "type": "publication",
+    "badge": "论文",
+    "icon": "FaFileAlt",
+    "iconColor": "green.400",
+    "title": "循环不变式推断论文被 ISSTA 2025 接收",
+    "description": "论文《Clause2Inv: A Generate-Combine-Check Framework for Loop Invariant Inference》被 ISSTA 2025 接收。",
+    "date": "2025",
+    "sortDate": "2025-06-20",
+    "links": [
+      { "text": "论文", "url": "/papers/issta2025.pdf", "icon": "FaFilePdf" },
+      { "text": "代码", "url": "https://github.com/SoftWiser-group/Clause2Inv", "icon": "FaGithub" }
+    ]
+  }
+]

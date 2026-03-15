@@ -1,0 +1,54 @@
+[
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "ASE 2025 paper on test suite evolution accepted",
+    "description": "Our work \"Comprehend, Imitate, and then Update: Unleashing the Power of LLMs in Test Suite Evolution\" was accepted by ASE 2025.",
+    "date": "2025",
+    "sortDate": "2025-08-01",
+    "links": [
+      { "text": "Paper", "url": "/papers/ase25.pdf", "icon": "FaFilePdf" },
+      { "text": "Code", "url": "https://github.com/SoftWiser-group/CommitUp", "icon": "FaGithub" }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "purple.400",
+    "title": "ECAI 2025 paper on LoRA Decompose accepted",
+    "description": "Our paper \"LoRA Decompose: Serving Fine-Tuned Models into LoRA-Like\" was accepted by ECAI 2025.",
+    "date": "2025",
+    "sortDate": "2025-07-15",
+    "links": [
+      { "text": "Paper", "url": "/papers/ecai25.pdf", "icon": "FaFilePdf" }
+    ]
+  },
+  {
+    "type": "release",
+    "badge": "Internship",
+    "icon": "FaBriefcase",
+    "iconColor": "orange.400",
+    "title": "Started LLM algorithm internship at ByteDance",
+    "description": "Joined ByteDance as an intern working on code-oriented large language model algorithms.",
+    "date": "Jul 2025",
+    "sortDate": "2025-07-01",
+    "links": []
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "green.400",
+    "title": "ISSTA 2025 paper on loop invariant inference accepted",
+    "description": "Our paper \"Clause2Inv: A Generate-Combine-Check Framework for Loop Invariant Inference\" was accepted by ISSTA 2025.",
+    "date": "2025",
+    "sortDate": "2025-06-20",
+    "links": [
+      { "text": "Paper", "url": "/papers/issta2025.pdf", "icon": "FaFilePdf" },
+      { "text": "Code", "url": "https://github.com/SoftWiser-group/Clause2Inv", "icon": "FaGithub" }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "education": {
+    "courses": [
+      {
+        "course": "Ph.D. in Computer Science and Technology",
+        "institution": "Nanjing University",
+        "year": "2023-Present"
+      },
+      {
+        "course": "B.Sc. in Computer Science and Technology",
+        "institution": "Nanjing University",
+        "year": "2019-2023"
+      }
+    ]
+  },
+  "reviewing": [],
+  "timeline": [
+    {
+      "title": "Ph.D. Student",
+      "company": "Softwiser Group, Institute of Computer Software, Nanjing University",
+      "companyUrl": "https://cs.nju.edu.cn/ics/",
+      "location": "Nanjing, China",
+      "start": "2023-09-01",
+      "category": "research",
+      "roleType": "research",
+      "isCurrent": true,
+      "summary": "Research on large language models for software engineering under the supervision of Yuan Yao and Feng Xu.",
+      "highlights": [
+        "Focus on test suite evolution, program repair, and software quality automation.",
+        "Continue exploring test generation as a long-term research direction.",
+        "Published work at ASE 2025, ECAI 2025, and ISSTA 2025."
+      ]
+    },
+    {
+      "title": "Research Intern",
+      "company": "Ant Group, Platform Engineering and Technology Department",
+      "companyUrl": "https://www.antgroup.com/",
+      "location": "Hangzhou, China",
+      "start": "2024-07-01",
+      "end": "2024-11-30",
+      "category": "industry",
+      "roleType": "sde",
+      "summary": "Worked on intelligent understanding and generation of software changes in the CodeFuse group.",
+      "highlights": [
+        "Participated in research and engineering around software change understanding and generation.",
+        "Worked at the intersection of developer tooling and large language models.",
+        "Gained industry experience on practical software intelligence systems."
+      ]
+    },
+    {
+      "title": "LLM Algorithm Intern (Code)",
+      "company": "ByteDance",
+      "companyUrl": "https://www.bytedance.com/",
+      "location": "China",
+      "start": "2025-07-01",
+      "end": "2025-11-30",
+      "category": "industry",
+      "roleType": "mle",
+      "summary": "Worked as an intern on code-oriented large language model algorithms.",
+      "highlights": [
+        "Focused on code intelligence scenarios for large language models.",
+        "Bridged academic research interests with large-scale industrial model work.",
+        "Expanded experience in practical deployment-oriented LLM systems."
+      ]
+    }
+  ]
+}

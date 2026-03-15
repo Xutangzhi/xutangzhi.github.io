@@ -1,0 +1,17 @@
+{
+  "currentResearch": [
+    {
+      "lab": "Softwiser Group",
+      "emoji": "🧪",
+      "advisor": "姚远，徐锋",
+      "focus": "研究面向软件工程的大语言模型，包括测试演化与程序修复",
+      "link": "https://cs.nju.edu.cn/ics/"
+    },
+    {
+      "lab": "南京大学计算机软件研究所",
+      "emoji": "🏫",
+      "focus": "关注自动化与软件质量保障，并持续开展测试生成相关研究",
+      "link": "https://www.nju.edu.cn/"
+    }
+  ]
+}

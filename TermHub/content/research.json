@@ -1,0 +1,17 @@
+{
+  "currentResearch": [
+    {
+      "lab": "Softwiser Group",
+      "emoji": "🧪",
+      "advisor": "Yuan Yao, Feng Xu",
+      "focus": "large language models for software engineering, including test evolution and program repair",
+      "link": "https://cs.nju.edu.cn/ics/"
+    },
+    {
+      "lab": "Nanjing University ICS",
+      "emoji": "🏫",
+      "focus": "automation and software quality with continued interest in test generation",
+      "link": "https://www.nju.edu.cn/"
+    }
+  ]
+}

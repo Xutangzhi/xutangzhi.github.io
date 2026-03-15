@@ -1,0 +1,70 @@
+{
+  "_comment": "Tangzhi Xu portfolio configuration",
+  "name": {
+    "full": "Tangzhi Xu",
+    "first": "Tangzhi",
+    "nickname": "Tangzhi",
+    "last": "Xu",
+    "display": "Tangzhi Xu",
+    "authorVariants": ["Tangzhi Xu", "许汤智"]
+  },
+  "title": "Hi, I'm Tangzhi Xu",
+  "tagline": "Ph.D. candidate working on large language models for software engineering, with a focus on test evolution, program repair, and software quality.",
+  "avatar": "avatar.svg",
+  "terminal": {
+    "username": "xutangzhi",
+    "rotatingSubtitles": [
+      "study llms for software engineering",
+      "work on test suite evolution",
+      "research program repair",
+      "explore test generation",
+      "build reliable software intelligence"
+    ],
+    "skills": [
+      "LLM for Software Engineering",
+      "Test Suite Evolution",
+      "Program Repair",
+      "Test Generation",
+      "Software Quality",
+      "Automation"
+    ],
+    "timezone": "Asia/Shanghai"
+  },
+  "contact": {
+    "email": "xutz@smail.nju.edu.cn",
+    "academicEmail": "xutz@smail.nju.edu.cn",
+    "hiringEmail": "xutz@smail.nju.edu.cn",
+    "location": "Nanjing, China"
+  },
+  "social": {
+    "github": "https://github.com/Xutangzhi",
+    "linkedin": "",
+    "medium": "",
+    "googleScholar": "",
+    "twitter": "",
+    "youtube": "",
+    "bilibili": "",
+    "zhihu": "",
+    "csdn": "",
+    "blog": "/cv/Tangzhi_Xu_CV.pdf"
+  },
+  "pets": [],
+  "features": {
+    "publications": true,
+    "projects": false,
+    "articles": false,
+    "experience": true,
+    "news": true,
+    "pets": false,
+    "guide": false
+  },
+  "heroSocialIcons": [
+    { "platform": "github", "icon": "FaGithub", "label": "GitHub", "color": "#58a6ff" },
+    { "platform": "blog", "icon": "FaFilePdf", "label": "CV", "color": "#f85149" }
+  ],
+  "selectedPublicationIds": [
+    "ase2025-test-suite-evolution",
+    "ecai2025-lora-decompose",
+    "issta2025-clause2inv"
+  ]
+}
