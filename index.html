@@ -3,119 +3,250 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>许汤智 | 学术主页</title>
+    <title>许汤智 | Academic CV</title>
+    <meta
+      name="description"
+      content="Tangzhi Xu academic homepage and CV in a terminal-inspired layout."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <div class="header-main">
-          <h1 class="name">许汤智</h1>
-          <p class="tagline lang lang-zh">南京大学计算机软件研究所, Softwiser Group, 博士生</p>
-          <p class="tagline lang lang-en">Ph.D. Candidate, Softwiser Group, ICS, Nanjing University</p>
-        </div>
-        <div class="header-actions">
-          <button class="lang-toggle" type="button" data-lang="zh">中文 / EN</button>
-          <div class="links">
-            <a href="mailto:xutz@smail.nju.edu.cn">Email</a>
-            <a href="个人资料/许汤智简历.pdf" target="_blank" rel="noreferrer">CV</a>
-          </div>
+  <body data-lang="en" data-theme="dark">
+    <div class="shell">
+      <header class="topbar">
+        <a class="brand" href="#top">
+          <span class="brand-mark">$</span>
+          <span class="brand-text">xutangzhi.cv</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">about</a>
+          <a href="#experience">experience</a>
+          <a href="#publications">publications</a>
+          <a href="#awards">awards</a>
+          <a href="#contact">contact</a>
+        </nav>
+
+        <div class="topbar-actions">
+          <button class="control" type="button" data-action="lang" aria-label="Toggle language">
+            中文 / EN
+          </button>
+          <button class="control" type="button" data-action="theme" aria-label="Toggle theme">
+            Theme
+          </button>
         </div>
       </header>
 
       <main>
-        <section class="section">
-          <h2 class="section-title lang lang-zh">简介</h2>
-          <h2 class="section-title lang lang-en">Bio</h2>
-          <p class="section-text lang lang-zh">
-            我目前是南京大学计算机软件研究所 Softwiser Group 的博士三年级在读生，导师为姚远副教授与徐锋教授。
-            我的研究方向聚焦于面向软件工程的大语言模型（LLM for Software Engineering），重点关注自动化与软件质量保障，
-            包括测试用例更新、代码修复等问题。目前仍持续关注测试生成相关研究。
-          </p>
-          <p class="section-text lang lang-en">
-            I am a third-year Ph.D. candidate in the Softwiser Group at the Institute of Computer Software, Nanjing University,
-            supervised by Assoc. Prof. Yuan Yao and Prof. Feng Xu. My research focuses on Large Language Models for Software
-            Engineering, with emphasis on automation and software quality, including test case updating and program repair.
-            I am currently continuing research on test generation.
-          </p>
+        <section class="hero panel" id="top">
+          <div class="panel-header">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <span class="panel-title">terminal://profile</span>
+          </div>
+
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="prompt">
+                <span class="prompt-sign">$</span>
+                <span class="lang lang-zh">whoami</span>
+                <span class="lang lang-en">whoami</span>
+              </p>
+              <h1>许汤智 / Tangzhi Xu</h1>
+              <p class="subtitle lang lang-zh">
+                南京大学计算机软件研究所 Softwiser Group 博士生
+              </p>
+              <p class="subtitle lang lang-en">
+                Ph.D. Candidate, Softwiser Group, Institute of Computer Software, Nanjing University
+              </p>
+
+              <p class="command-line">
+                <span class="prompt-sign">$</span>
+                <span class="lang lang-zh">目前专注：</span>
+                <span class="lang lang-en">currently_focus =</span>
+                <span class="rotating-text" aria-live="polite"></span>
+              </p>
+
+              <div class="hero-tags">
+                <span class="tag">LLM for SE</span>
+                <span class="tag">Program Repair</span>
+                <span class="tag">Test Evolution</span>
+                <span class="tag">Test Generation</span>
+              </div>
+            </div>
+
+            <aside class="hero-meta">
+              <div class="meta-card">
+                <div class="meta-label">status</div>
+                <div class="meta-value lang lang-zh">博士三年级</div>
+                <div class="meta-value lang lang-en">3rd-year Ph.D. student</div>
+              </div>
+              <div class="meta-card">
+                <div class="meta-label">lab</div>
+                <div class="meta-value">Softwiser Group</div>
+              </div>
+              <div class="meta-card">
+                <div class="meta-label">advisors</div>
+                <div class="meta-value lang lang-zh">姚远副教授 / 徐锋教授</div>
+                <div class="meta-value lang lang-en">Assoc. Prof. Yuan Yao / Prof. Feng Xu</div>
+              </div>
+              <div class="meta-card">
+                <div class="meta-label">links</div>
+                <div class="meta-links">
+                  <a href="mailto:xutz@smail.nju.edu.cn">Email</a>
+                  <a href="个人资料/许汤智简历.pdf" target="_blank" rel="noreferrer">CV PDF</a>
+                </div>
+              </div>
+            </aside>
+          </div>
         </section>
 
-        <section class="section">
-          <h2 class="section-title lang lang-zh">教育与实习经历</h2>
-          <h2 class="section-title lang lang-en">Education & Internship Experience</h2>
-          <ul class="timeline">
-            <li>
-              <div class="time">2023.9 – present</div>
-              <div class="detail lang lang-zh">南京大学计算机科学与技术系，博士研究生</div>
-              <div class="detail lang lang-en">Ph.D. Student, Department of Computer Science and Technology, Nanjing University</div>
-              <div class="subdetail lang lang-zh">2024.7 – 2024.11：蚂蚁集团, 平台工程与技术部,项目实习生 (项目：软件变更的智能化理解与生成技术) </div>
-              <div class="subdetail lang lang-en">Jul 2024 – Nov 2024: Research Intern, Ant Group (For Project: Intelligent Understanding and Generation of Software Changes) </div>
-              <div class="subdetail lang lang-zh">2025.7 – 2025.11：字节跳动，大模型算法实习生（代码方向）</div>
-              <div class="subdetail lang lang-en">Jul 2025 – Nov 2025: Research Intern, ByteDance (For Code LLM)</div>
-            </li>
-            <li>
-              <div class="time">2019.9 – 2023.6</div>
-              <div class="detail lang lang-zh">南京大学计算机科学与技术系，本科</div>
-              <div class="detail lang lang-en">B.Sc. in Computer Science and Technology, Nanjing University</div>
-            </li>
-          </ul>
+        <section class="section panel" id="about">
+          <div class="section-heading">
+            <p class="section-kicker">$ cat profile/bio.md</p>
+            <h2 class="lang lang-zh">关于我</h2>
+            <h2 class="lang lang-en">About</h2>
+          </div>
+
+          <div class="content-card prose">
+            <p class="lang lang-zh">
+              我目前是南京大学计算机软件研究所 Softwiser Group 的博士三年级在读生，导师为姚远副教授与徐锋教授。
+              我的研究方向聚焦于面向软件工程的大语言模型，重点关注自动化与软件质量保障，包括测试用例更新、
+              代码修复等问题，目前也持续关注测试生成相关研究。
+            </p>
+            <p class="lang lang-en">
+              I am a third-year Ph.D. candidate in the Softwiser Group at the Institute of Computer Software,
+              Nanjing University, supervised by Assoc. Prof. Yuan Yao and Prof. Feng Xu. My research focuses on
+              large language models for software engineering, with emphasis on automation and software quality,
+              including test suite evolution, program repair, and ongoing work on test generation.
+            </p>
+          </div>
         </section>
 
-        <section class="section">
-          <h2 class="section-title lang lang-zh">论文</h2>
-          <h2 class="section-title lang lang-en">Publications</h2>
-          <div class="pub-list">
-            <article class="pub">
-              <h3 class="pub-title lang lang-zh">ASE'25：Comprehend, Imitate, and then Update: Unleashing the Power of LLMs in Test Suite Evolution</h3>
-              <h3 class="pub-title lang lang-en">ASE'25: Comprehend, Imitate, and then Update: Unleashing the Power of LLMs in Test Suite Evolution</h3>
-              <p class="pub-authors lang lang-zh"><strong class="author-highlight">Tangzhi Xu</strong>, Jianhan Liu, Yuan Yao, Cong Li, Feng Xu, Xiaoxing Ma</p>
-              <p class="pub-authors lang lang-en"><strong class="author-highlight">Tangzhi Xu</strong>, Jianhan Liu, Yuan Yao, Cong Li, Feng Xu, Xiaoxing Ma</p>
-              <div class="pub-links">
-                <a href="个人资料/ase25论文.pdf" target="_blank" rel="noreferrer">PDF</a>
-                <a href="https://github.com/SoftWiser-group/CommitUp" target="_blank" rel="noreferrer">Code</a>
+        <section class="section panel" id="experience">
+          <div class="section-heading">
+            <p class="section-kicker">$ tree timeline/ -L 2</p>
+            <h2 class="lang lang-zh">教育与经历</h2>
+            <h2 class="lang lang-en">Education & Experience</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-date">2023.09 - present</div>
+              <div class="content-card">
+                <h3 class="lang lang-zh">南京大学计算机科学与技术系，博士研究生</h3>
+                <h3 class="lang lang-en">Ph.D. Student, Department of Computer Science and Technology, Nanjing University</h3>
+                <ul class="detail-list">
+                  <li class="lang lang-zh">导师：姚远副教授、徐锋教授</li>
+                  <li class="lang lang-en">Advised by Assoc. Prof. Yuan Yao and Prof. Feng Xu</li>
+                  <li class="lang lang-zh">2024.07 - 2024.11：蚂蚁集团平台工程与技术部，项目实习生</li>
+                  <li class="lang lang-en">Jul 2024 - Nov 2024: Research Intern, Ant Group, Platform Engineering and Technology</li>
+                  <li class="lang lang-zh">2025.07 - 2025.11：字节跳动，大模型算法实习生（代码方向）</li>
+                  <li class="lang lang-en">Jul 2025 - Nov 2025: LLM Algorithm Intern, ByteDance, Code Intelligence</li>
+                </ul>
               </div>
             </article>
-            <article class="pub">
-              <h3 class="pub-title lang lang-zh">ECAI'25：LoRA Decompose: Serving Fine-Tuned Models into LoRA-Like</h3>
-              <h3 class="pub-title lang lang-en">ECAI'25: LoRA Decompose: Serving Fine-Tuned Models into LoRA-Like</h3>
-              <p class="pub-authors lang lang-zh">Yibo Han, <strong class="author-highlight">Tangzhi Xu</strong>, Zenan Li, Yijia Zhang, Youshan Miao, Yuan Yao, Ningyi Xu</p>
-              <p class="pub-authors lang lang-en">Yibo Han, <strong class="author-highlight">Tangzhi Xu</strong>, Zenan Li, Yijia Zhang, Youshan Miao, Yuan Yao, Ningyi Xu</p>
-              <div class="pub-links">
-                <a href="个人资料/ECAI25.pdf" target="_blank" rel="noreferrer">PDF</a>
-              </div>
-            </article>
-            <article class="pub">
-              <h3 class="pub-title lang lang-zh">ISSTA'25：Clause2Inv: A Generate-Combine-Check Framework for Loop Invariant Inference</h3>
-              <h3 class="pub-title lang lang-en">ISSTA'25: Clause2Inv: A Generate-Combine-Check Framework for Loop Invariant Inference</h3>
-              <p class="pub-authors lang lang-zh">Weining Cao, Guangyuan Wu, <strong class="author-highlight">Tangzhi Xu</strong>, Yuan Yao, Hengfeng Wei, Taolue Chen, Xiaoxing Ma</p>
-              <p class="pub-authors lang lang-en">Weining Cao, Guangyuan Wu, <strong class="author-highlight">Tangzhi Xu</strong>, Yuan Yao, Hengfeng Wei, Taolue Chen, Xiaoxing Ma</p>
-              <div class="pub-links">
-                <a href="个人资料/issta2025.pdf" target="_blank" rel="noreferrer">PDF</a>
-                <a href="https://github.com/SoftWiser-group/Clause2Inv" target="_blank" rel="noreferrer">Code</a>
+
+            <article class="timeline-item">
+              <div class="timeline-date">2019.09 - 2023.06</div>
+              <div class="content-card">
+                <h3 class="lang lang-zh">南京大学计算机科学与技术系，本科</h3>
+                <h3 class="lang lang-en">B.Sc. in Computer Science and Technology, Nanjing University</h3>
               </div>
             </article>
           </div>
         </section>
 
-        <section class="section">
-          <h2 class="section-title lang lang-zh">荣誉与奖励</h2>
-          <h2 class="section-title lang lang-en">Honors & Awards</h2>
-          <ul class="awards">
-            <li class="lang lang-zh">南京大学博士生英才奖学金（2025）</li>
-            <li class="lang lang-zh">南京大学研究生一等学业奖学金（2024，2025）</li>
-            <li class="lang lang-zh">南京大学直博生校长特别奖学金（2023）</li>
-            <li class="lang lang-en">Outstanding Ph.D. Student Scholarship, Nanjing University (2025)</li>
-            <li class="lang lang-en">First-Class Graduate Academic Scholarship, Nanjing University (2024, 2025)</li>
-            <li class="lang lang-en">Presidential Special Scholarship for Direct Ph.D. Students, Nanjing University (2023)</li>
-          </ul>
+        <section class="section panel" id="publications">
+          <div class="section-heading">
+            <p class="section-kicker">$ ls publications/selected</p>
+            <h2 class="lang lang-zh">论文</h2>
+            <h2 class="lang lang-en">Selected Publications</h2>
+          </div>
+
+          <div class="publication-list">
+            <article class="publication-card">
+              <div class="pub-meta">ASE 2025</div>
+              <h3>Comprehend, Imitate, and then Update: Unleashing the Power of LLMs in Test Suite Evolution</h3>
+              <p class="pub-authors"><strong>Tangzhi Xu</strong>, Jianhan Liu, Yuan Yao, Cong Li, Feng Xu, Xiaoxing Ma</p>
+              <div class="pub-links">
+                <a href="个人资料/ase25论文.pdf" target="_blank" rel="noreferrer">paper</a>
+                <a href="https://github.com/SoftWiser-group/CommitUp" target="_blank" rel="noreferrer">code</a>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <div class="pub-meta">ECAI 2025</div>
+              <h3>LoRA Decompose: Serving Fine-Tuned Models into LoRA-Like</h3>
+              <p class="pub-authors">Yibo Han, <strong>Tangzhi Xu</strong>, Zenan Li, Yijia Zhang, Youshan Miao, Yuan Yao, Ningyi Xu</p>
+              <div class="pub-links">
+                <a href="个人资料/ECAI25.pdf" target="_blank" rel="noreferrer">paper</a>
+              </div>
+            </article>
+
+            <article class="publication-card">
+              <div class="pub-meta">ISSTA 2025</div>
+              <h3>Clause2Inv: A Generate-Combine-Check Framework for Loop Invariant Inference</h3>
+              <p class="pub-authors">Weining Cao, Guangyuan Wu, <strong>Tangzhi Xu</strong>, Yuan Yao, Hengfeng Wei, Taolue Chen, Xiaoxing Ma</p>
+              <div class="pub-links">
+                <a href="个人资料/issta2025.pdf" target="_blank" rel="noreferrer">paper</a>
+                <a href="https://github.com/SoftWiser-group/Clause2Inv" target="_blank" rel="noreferrer">code</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section panel" id="awards">
+          <div class="section-heading">
+            <p class="section-kicker">$ cat honors.txt</p>
+            <h2 class="lang lang-zh">荣誉与奖励</h2>
+            <h2 class="lang lang-en">Honors & Awards</h2>
+          </div>
+
+          <div class="content-card">
+            <ul class="award-list">
+              <li class="lang lang-zh">南京大学博士生英才奖学金（2025）</li>
+              <li class="lang lang-zh">南京大学研究生一等学业奖学金（2024，2025）</li>
+              <li class="lang lang-zh">南京大学直博生校长特别奖学金（2023）</li>
+              <li class="lang lang-en">Outstanding Ph.D. Student Scholarship, Nanjing University (2025)</li>
+              <li class="lang lang-en">First-Class Graduate Academic Scholarship, Nanjing University (2024, 2025)</li>
+              <li class="lang lang-en">Presidential Special Scholarship for Direct Ph.D. Students, Nanjing University (2023)</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section panel" id="contact">
+          <div class="section-heading">
+            <p class="section-kicker">$ printenv CONTACT</p>
+            <h2 class="lang lang-zh">联系</h2>
+            <h2 class="lang lang-en">Contact</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="content-card">
+              <div class="contact-label">email</div>
+              <a href="mailto:xutz@smail.nju.edu.cn">xutz@smail.nju.edu.cn</a>
+            </div>
+            <div class="content-card">
+              <div class="contact-label">institution</div>
+              <p class="lang lang-zh">南京大学计算机软件研究所 Softwiser Group</p>
+              <p class="lang lang-en">Softwiser Group, Institute of Computer Software, Nanjing University</p>
+            </div>
+            <div class="content-card">
+              <div class="contact-label">cv</div>
+              <a href="个人资料/许汤智简历.pdf" target="_blank" rel="noreferrer">Open PDF Resume</a>
+            </div>
+          </div>
         </section>
       </main>
 
       <footer class="footer">
-        <span class="lang lang-zh">更新于 2025</span>
-        <span class="lang lang-en">Updated 2025</span>
+        <span class="prompt-sign">$</span>
+        <span class="lang lang-zh">最后更新：2025</span>
+        <span class="lang lang-en">last_updated = 2025</span>
       </footer>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
