@@ -2,6 +2,8 @@ const langButton = document.querySelector('[data-action="lang"]');
 const themeButton = document.querySelector('[data-action="theme"]');
 const rotatingText = document.querySelector(".rotating-text");
 const navLinks = [...document.querySelectorAll(".nav a")];
+const zhNodes = [...document.querySelectorAll(".lang-zh")];
+const enNodes = [...document.querySelectorAll(".lang-en")];
 const sections = navLinks
   .map((link) => document.querySelector(link.getAttribute("href")))
   .filter(Boolean);
@@ -26,6 +28,12 @@ let phraseIndex = 0;
 function setLang(lang) {
   document.body.dataset.lang = lang;
   langButton.textContent = lang === "zh" ? "中文 / EN" : "EN / 中文";
+  zhNodes.forEach((node) => {
+    node.hidden = lang !== "zh";
+  });
+  enNodes.forEach((node) => {
+    node.hidden = lang !== "en";
+  });
   updateRotatingText(true);
 }
 

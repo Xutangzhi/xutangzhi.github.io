@@ -41,7 +41,7 @@ body {
   background:
     radial-gradient(circle at top left, rgba(88, 166, 255, 0.14), transparent 28%),
     radial-gradient(circle at top right, rgba(46, 160, 67, 0.1), transparent 24%),
-    linear-gradient(180deg, var(--bg) 0%, color-mix(in srgb, var(--bg) 88%, #000 12%) 100%);
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-elevated) 100%);
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -64,6 +64,7 @@ a:hover {
 .content-card,
 .meta-card,
 .publication-card {
+  -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
 }
 
@@ -247,7 +248,7 @@ a:hover {
 .content-card,
 .publication-card {
   padding: 18px;
-  background: color-mix(in srgb, var(--bg-elevated) 78%, transparent 22%);
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: 18px;
 }
@@ -355,16 +356,8 @@ a:hover {
   padding: 20px 6px 0;
 }
 
-.lang-en {
-  display: none;
-}
-
-body[data-lang="en"] .lang-zh {
-  display: none;
-}
-
-body[data-lang="en"] .lang-en {
-  display: revert;
+.lang[hidden] {
+  display: none !important;
 }
 
 @media (max-width: 900px) {
