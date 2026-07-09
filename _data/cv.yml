@@ -1,0 +1,56 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Tangzhi Xu
+    - name: Email
+      value: <a href="mailto:xutz@smail.nju.edu.cn">xutz@smail.nju.edu.cn</a>
+    - name: Research Interests
+      value: Large Language Models for Software Engineering, Test Suite Evolution, Program Repair, Test Generation
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. Student in Computer Science and Technology
+      institution: Nanjing University
+      year: 2023 - Present
+      description:
+        - Softwiser Group, Institute of Computer Software.
+        - Supervised by Assoc. Prof. Yuan Yao and Prof. Feng Xu.
+    - title: B.Sc. in Computer Science and Technology
+      institution: Nanjing University
+      year: 2019 - 2023
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: LLM Algorithm Intern (Code)
+      institution: ByteDance
+      year: Jul 2025 - Nov 2025
+      description:
+        - Worked on code-oriented large language model algorithms.
+    - title: Research Intern
+      institution: Ant Group, Platform Engineering and Technology Department
+      year: Jul 2024 - Nov 2024
+      description:
+        - CodeFuse Group.
+        - Project: Intelligent Understanding and Generation of Software Changes.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Outstanding Ph.D. Student Scholarship, Nanjing University
+        - First-Class Graduate Academic Scholarship, Nanjing University
+    - year: 2024
+      items:
+        - First-Class Graduate Academic Scholarship, Nanjing University
+    - year: 2023
+      items:
+        - Presidential Special Scholarship for Direct Ph.D. Students, Nanjing University
+
+- title: Publications
+  type: list
+  contents:
+    - ASE 2025, ECAI 2025, ISSTA 2025.
