@@ -2,6 +2,9 @@
 layout: about
 title: about
 permalink: /
+lang: en
+nav_section: about
+translation: /zh/
 subtitle: Ph.D. Candidate, Softwiser Group, Institute of Computer Software, Nanjing University
 
 profile:

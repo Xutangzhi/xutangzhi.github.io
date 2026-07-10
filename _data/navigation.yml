@@ -1,0 +1,21 @@
+en:
+  - title: about
+    url: /
+    section: about
+  - title: publications
+    url: /publications/
+    section: publications
+  - title: cv
+    url: /cv/
+    section: cv
+
+zh:
+  - title: 主页
+    url: /zh/
+    section: about
+  - title: 论文
+    url: /zh/publications/
+    section: publications
+  - title: 简历
+    url: /zh/cv/
+    section: cv

@@ -16,7 +16,9 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 20%">
+              {% if page.lang == 'zh-CN' %}{{ item.date | date: '%Y年%m月%d日' }}{% else %}{{ item.date | date: '%b %d, %Y' }}{% endif %}
+            </th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
@@ -29,6 +31,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p>{% if page.lang == 'zh-CN' %}暂无动态。{% else %}No news so far...{% endif %}</p>
   {% endif %}
 </div>

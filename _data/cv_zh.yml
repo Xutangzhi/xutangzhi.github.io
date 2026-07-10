@@ -1,0 +1,56 @@
+- title: 基本信息
+  type: map
+  contents:
+    - name: 姓名
+      value: 徐唐志
+    - name: 邮箱
+      value: <a href="mailto:xutz@smail.nju.edu.cn">xutz@smail.nju.edu.cn</a>
+    - name: 研究方向
+      value: 面向软件工程的大语言模型、测试套件演化、程序修复、测试生成
+
+- title: 教育经历
+  type: time_table
+  contents:
+    - title: 计算机科学与技术专业博士研究生
+      institution: 南京大学
+      year: 2023 - 至今
+      description:
+        - 计算机软件研究所 Softwiser 课题组。
+        - 导师：姚远副教授、徐锋教授。
+    - title: 计算机科学与技术专业学士
+      institution: 南京大学
+      year: 2019 - 2023
+
+- title: 实习经历
+  type: time_table
+  contents:
+    - title: 大语言模型算法实习生（代码方向）
+      institution: 字节跳动
+      year: 2025.07 - 2025.11
+      description:
+        - 参与代码大语言模型算法相关工作。
+    - title: 研究实习生
+      institution: 蚂蚁集团平台技术事业群
+      year: 2024.07 - 2024.11
+      description:
+        - CodeFuse 团队。
+        - 项目：软件变更的智能理解与生成。
+
+- title: 荣誉奖励
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - 南京大学优秀博士研究生奖学金
+        - 南京大学研究生一等学业奖学金
+    - year: 2024
+      items:
+        - 南京大学研究生一等学业奖学金
+    - year: 2023
+      items:
+        - 南京大学直博生校长特别奖学金
+
+- title: 论文发表
+  type: list
+  contents:
+    - ASE 2025、ECAI 2025、ISSTA 2025。
