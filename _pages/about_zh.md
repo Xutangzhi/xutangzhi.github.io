@@ -7,6 +7,7 @@ nav_section: about
 translation: /
 display_name: 徐唐志
 subtitle: 南京大学计算机软件研究所 Softwiser 课题组博士研究生
+description: 徐唐志的学术个人主页。
 
 profile:
   align: right
