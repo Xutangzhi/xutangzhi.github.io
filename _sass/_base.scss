@@ -832,6 +832,118 @@ footer.sticky-bottom {
   }
 }
 
+@media (max-width: 575.98px) {
+  .publications {
+    margin-top: 1rem;
+
+    ol.bibliography {
+      list-style: none !important;
+
+      > li {
+        margin-bottom: 2rem;
+
+        > .row {
+          display: block;
+          margin-right: 0;
+          margin-left: 0;
+        }
+
+        .abbr {
+          width: auto;
+          max-width: 100%;
+          padding-right: 0;
+          padding-left: 0;
+          margin-bottom: 0.25rem;
+
+          abbr.w-100 {
+            width: auto !important;
+            min-width: 4rem;
+            padding: 0.3rem 0.7rem;
+            margin-bottom: 0;
+          }
+        }
+
+        [class^="col-sm-"],
+        [class*=" col-sm-"] {
+          width: 100%;
+          max-width: 100%;
+          padding-right: 0;
+          padding-left: 0;
+        }
+
+        .title {
+          font-size: 1.05rem;
+          line-height: 1.35;
+        }
+
+        .author,
+        .periodical {
+          line-height: 1.5;
+          overflow-wrap: anywhere;
+        }
+
+        .links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.4rem;
+          margin-top: 0.65rem;
+
+          a.btn {
+            padding: 0.25rem 0.65rem;
+            margin: 0 !important;
+            font-size: 0.75rem;
+          }
+        }
+
+        .bibtex.hidden.open {
+          max-height: none;
+          margin-top: 0.75rem;
+          overflow: visible;
+        }
+
+        .bibtex figure.highlight {
+          width: 100%;
+          max-width: 100%;
+          margin-bottom: 0;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+
+          pre {
+            width: max-content;
+            min-width: 100%;
+            margin-bottom: 0;
+            font-size: 0.72rem;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+  body {
+    padding-bottom: 0;
+  }
+
+  footer.fixed-bottom {
+    position: static !important;
+    margin-top: 2rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    .container {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      line-height: 1.45;
+    }
+  }
+
+  #back-to-top {
+    right: 1rem !important;
+    bottom: 1rem !important;
+    width: 2.75rem !important;
+    height: 2.75rem !important;
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
