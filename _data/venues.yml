@@ -7,3 +7,12 @@
 
 "Vision":
   color: "#009f36"
+
+"ASE":
+  ccf: A
+
+"ECAI":
+  ccf: B
+
+"ISSTA":
+  ccf: A

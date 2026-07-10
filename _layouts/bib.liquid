@@ -25,6 +25,15 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      {% if site.data.venues[entry.abbr].ccf %}
+        {% assign ccf_rank = site.data.venues[entry.abbr].ccf | downcase %}
+        <span
+          class="ccf-rank ccf-rank-{{ ccf_rank }}"
+          title="{% if page.lang == 'zh-CN' %}CCF 推荐 {{ site.data.venues[entry.abbr].ccf }} 类会议{% else %}CCF Class {{ site.data.venues[entry.abbr].ccf }} conference{% endif %}"
+        >
+          CCF-{{ site.data.venues[entry.abbr].ccf }}
+        </span>
+      {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
